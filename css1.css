@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #ad5012d3;
+}
+
+.page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header Section */
+header {
+  background-color: #1a237e;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+header nav {
+  margin: 1rem 0;
+}
+
+header nav a {
+  color: #bbdefb;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+header a[href$="contact.html"] {
+  display: inline-block;
+  background-color: #64b5f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a[href$="contact.html"]:hover {
+  background-color: #42a5f5;
+}
+
+header a[href$="home.html"] {
+  display: inline-block;
+  background-color: #64b5f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a[href$="home.html"]:hover {
+  background-color: #42a5f5;
+
+}
+  header a[href$="location.html"] {
+  display: inline-block;
+  background-color: #64b5f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a[href$="location.html"]:hover {
+  background-color: #42a5f5;
+
+}
+header a[href$="services.html"] {
+  display: inline-block;
+  background-color: #64b5f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a[href$="services.html"]:hover {
+  background-color: #42a5f5;
+}
+
+
+/* Section Styles */
+section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* List Styling */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+ul li, ol li {
+  margin-bottom: 0.5rem;
+}
+
+/* Testimonials */
+.testimonials blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  border-radius: 4px;
+}
+
+/* Subjects Section */
+.subjects p {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+}
