@@ -1,2 +1,2 @@
 # Project1
-First code acadamy project
+First code Institute project
