@@ -6,10 +6,11 @@ body {
   line-height: 1.6;
   background-color: #f7f9fc;
   color: #333;
+  
 }
 
 h1, h2, h3 {
-  color: #ad5012d3;
+  color: #09237ad3;
 }
 
 .page {
@@ -20,11 +21,13 @@ h1, h2, h3 {
 
 /* Header Section */
 header {
-  background-color: #1a237e;
+  background-color: #09a52b;
   color: white;
   padding: 2rem;
   text-align: center;
   border-radius: 8px;
+  background-image: url('assets/images/angle.png');
+  background-size: cover;
 }
 
 header h1 {
@@ -129,7 +132,7 @@ ul li, ol li {
 
 /* Testimonials */
 .testimonials blockquote {
-  font-style: italic;
+  font-style: oblique;
   margin: 1rem 0;
   padding: 1rem;
   background-color: #e3f2fd;
@@ -142,11 +145,7 @@ ul li, ol li {
   font-weight: bold;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
-  }
+
 
   header nav a {
     display: block;
